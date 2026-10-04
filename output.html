@@ -1,0 +1,17 @@
+{% extends 'index.html' %}
+{% block body %}
+<div >
+
+    <h1>Predicted output: {{ statement if statement else 'No prediction available' }}</h1>
+
+<div class='bottom'>
+
+<img src="histo.png" class="top" alt="" />
+
+<img src="graphs.png"  class="top" alt="" />
+
+</div>
+
+</div>
+
+{% endblock%}
